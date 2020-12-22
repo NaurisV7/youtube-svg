@@ -1,0 +1,9 @@
+svg {
+    fill: royalblue;
+    height: 40px;
+    width: 38px;
+}
+
+svg:hover {
+    fill: silver;
+}
