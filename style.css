@@ -7,3 +7,8 @@ svg {
 svg:hover {
     fill: silver;
 }
+
+.rotate {
+    fill: red;
+    transform: rotate(-90deg);
+}
