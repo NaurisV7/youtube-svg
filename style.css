@@ -3,13 +3,11 @@
 body {
     font-family: "Roboto";
     font-weight: 100;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 svg {
     fill: royalblue;
-    height: 40px;
-    width: 38px;
 }
 
 svg:hover {
@@ -28,6 +26,27 @@ svg:hover {
 
 .bold {
     font-weight: 700;
+}
+
+.right-side-line {
+    top: 10px;
+    height: 1000px;
+    width: 200px;
+    position: absolute;
+    float: left;
+}
+
+.right-side-line div {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.right-side-line p {
+    display: inline-block;
+    justify-content: space-around;
+}
+.clear {
+    clear: both;
 }
 
 
