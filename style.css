@@ -1,52 +1,73 @@
 @import url('fonts.css');
 
 body {
-    font-family: "Roboto";
-    font-weight: 100;
-    font-size: 20px;
+    background: #f1f1f1;
 }
 
-svg {
-    fill: royalblue;
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 50px;
 }
 
-svg:hover {
-    fill: silver;
-}
-
-.rotate {
-    fill: red;
-    transform: rotate(-90deg);
-}
-
-.italic {
-    font-style: italic;
-    
-}
-
-.bold {
-    font-weight: 700;
+.top-menu a {
+    text-decoration: none;
 }
 
 .right-side-line {
-    top: 10px;
-    height: 1000px;
-    width: 200px;
-    position: absolute;
-    float: left;
+    background: #fff;
+    height: 100vh;
+    width: 240px;
 }
 
-.right-side-line div {
-    display: inline-block;
-    justify-content: space-around;
+.right-side-line a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    display: block;
+    padding: 12px 0;
+    fill: #606060;
 }
 
-.right-side-line p {
+.right-side-line a svg {
+    fill: #606060;
+  }
+  
+.right-side-line a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.right-side-line a:active {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.right-side-line a.side-active svg {
+    fill: #f00;
+}
+
+.right-side-line a .side-icon {
+    margin-left: 26px;
     display: inline-block;
-    justify-content: space-around;
+    vertical-align: middle;
+    width: 20px;
+    text-align: center;
 }
-.clear {
-    clear: both;
+
+.right-side-line a .side-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 26px;
 }
+
+hr {
+    margin: 12px 0;
+}
+
+
 
 
