@@ -82,3 +82,10 @@
     font-weight: 300;
     src: url(Roboto/Roboto-Regular.ttf);
 }
+
+.right-side-line p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 2.1666em;
+    padding-bottom: 0.5714em;
+}

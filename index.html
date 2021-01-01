@@ -80,13 +80,15 @@
                 <g id="notifications">
                     <path d="M8 19.5C9.1 19.5 10 18.6 10 17.5H6C6 18.6 6.9 19.5 8 19.5ZM14 13.5V8.5C14 5.43 12.36 2.86 9.5 2.18V1.5C9.5 0.67 8.83 0 8 0C7.17 0 6.5 0.67 6.5 1.5V2.18C3.63 2.86 2 5.42 2 8.5V13.5L0 15.5V16.5H16V15.5L14 13.5Z" fill="#606060"/>
                 </g>
+                <g id="top-question-mark">
+                    <path d="M10.7204 9.43396H10.0429L9.80274 9.2024C10.6432 8.2247 11.1492 6.9554 11.1492 5.57461C11.1492 2.49571 8.65352 0 5.57461 0C2.49571 0 0 2.49571 0 5.57461C0 8.65352 2.49571 11.1492 5.57461 11.1492C6.9554 11.1492 8.2247 10.6432 9.2024 9.80274L9.43396 10.0429V10.7204L13.7221 15L15 13.7221L10.7204 9.43396ZM5.57461 9.43396C3.43911 9.43396 1.71527 7.71012 1.71527 5.57461C1.71527 3.43911 3.43911 1.71527 5.57461 1.71527C7.71012 1.71527 9.43396 3.43911 9.43396 5.57461C9.43396 7.71012 7.71012 9.43396 5.57461 9.43396Z" fill="#606060"/>
+                </g>
             </defs>
         </svg>
-    
         <header>
             <div class="top-menu">
-                <div>
-                    <a>
+                <div class="first-top">
+                    <a class="first-top-padding">
                         <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <use xlink:href="#three-lines"></use>
                         </svg>
@@ -97,9 +99,14 @@
                         </svg>
                     </a>
                 </div>
-                <div>
+                <div class="second-top">
                     <form>
-                        <input type="text" placeholder="search" />
+                        <input type="text" placeholder="Search" class="blue-border"/>
+                        <button>
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <use xlink:href="#top-question-mark"></use>
+                            </svg>
+                        </button>
                     </form>
                 </div>
                 <nav>
@@ -118,14 +125,14 @@
                             <use xlink:href="#notifications"></use>
                         </svg>                            
                     </a>
+                    <a>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <use xlink:href="#channel-icon"></use>
+                        </svg> 
+                    </a>
                 </nav>
             </div>
         </header>
-
-       
-       
-       
-       
         <nav class="right-side-line">
            <a class="side-active" href="#">
                <span class="side-icon">
@@ -201,7 +208,7 @@
                 <span class="side-text">Show more</span>
             </a>
             <hr>
-            <p>SUBSCRIPTIONS</p>
+            <p class="side-text">SUBSCRIPTIONS</p>
             <a href="#">
                 <span class="side-icon">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -267,7 +274,7 @@
                 <span class="side-text">Show 41 more</span>
             </a>
             <hr>
-            <p>MORE FROM YOUTUBE</p>
+            <p class="side-text">MORE FROM YOUTUBE</p>
             <a href="#">
                 <span class="side-icon">
                     <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -326,17 +333,22 @@
                 <span class="side-text">Send feedback</span>
             </a>
             <hr>
-            <a href="#">
-                <span>About Press Copyright<br>
-                    Contact us Creators<br>
-                    Advertise Developers<br>
-                    <br>
-                    Terms Privacy<br>
-                    Policy and Safety<br>
-                    Test new features
-                </span>
-            </a>
-            <p>2020 Google LLC</p>
+            <div class="right-side-line-footer" >
+                <a href="#">About</a>
+                <a href="#">Press</a>
+                <a href="#">Copyright</a>
+                <a href="#">Contact us</a>
+                <a href="#">Creators</a>
+                <a href="#">Advertise</a>
+                <a href="#">Developers</a>
+            </div>
+            <div class="right-side-line-footer">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Policy and safety</a>
+                <a href="#">Test new features</a>
+                <p class="side-text" id="padding">2020 Google LLC</p>
+            </div>            
         </nav>
     </body>
 </html>
