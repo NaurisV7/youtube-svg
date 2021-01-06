@@ -192,7 +192,18 @@ hr {
     background: lightgrey; 
 }
 
+.dropdown-side.active {
+    width: 5.1428em;
 
+}
+
+.dropdown-side.active .side-active {
+    margin: 0 0 6px;
+}
+
+.dropdown-side.active .disapear {
+    display: none;
+}
 
 
 
